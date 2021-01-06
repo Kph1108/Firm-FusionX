@@ -1,0 +1,569 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18325 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"96
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"128
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"26 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+"352 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v _GPIO GPIO `T(v  1 e 1 0 ]
+[v i1_GPIO GPIO `T(v  1 e 1 0 ]
+"443
+[v _SetOUTPUT SetOUTPUT `(v  1 e 1 0 ]
+[v i1_SetOUTPUT SetOUTPUT `(v  1 e 1 0 ]
+"541
+[v _WaitForSYNC_PU WaitForSYNC_PU `(v  1 e 1 0 ]
+"553
+[v _WriteEEPROMDefaults WriteEEPROMDefaults `(v  1 e 1 0 ]
+"572
+[v _setColorState setColorState `(uc  1 e 1 0 ]
+"810
+[v _ReWriteEEPROM ReWriteEEPROM `(v  1 e 1 0 ]
+"833
+[v _INC_EEPROM_MODE INC_EEPROM_MODE `(v  1 e 1 0 ]
+"864
+[v _Update_Input_Mode_Type Update_Input_Mode_Type `(v  1 e 1 0 ]
+"883
+[v _resetColor resetColor `(v  1 e 1 0 ]
+"911
+[v _Increment_Color_State Increment_Color_State `(v  1 e 1 0 ]
+"975
+[v _Read_Mode_Input Read_Mode_Input `(v  1 e 1 0 ]
+"1043
+[v _Update_ComboPattern_Index Update_ComboPattern_Index `(v  1 e 1 0 ]
+"1084
+[v _readFromEEPROMBeforeSteadyOn readFromEEPROMBeforeSteadyOn `(v  1 e 1 0 ]
+"1106
+[v _readFromEEPROM readFromEEPROM `(v  1 e 1 0 ]
+"1128
+[v _Initial_Start Initial_Start `(v  1 e 1 0 ]
+"1191
+[v _main main `(v  1 e 1 0 ]
+"1312
+[v _isComboPattern isComboPattern `(uc  1 e 1 0 ]
+"18 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"22 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+[s S490 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+]
+"129 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f18325.h
+[s S496 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S500 . 1 `S490 1 . 1 0 `S496 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES500  1 e 1 @3 ]
+[s S514 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"362
+[u S519 . 1 `S514 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES519  1 e 1 @11 ]
+"382
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S56 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"397
+[u S63 . 1 `S56 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES63  1 e 1 @12 ]
+"432
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+[s S103 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"447
+[u S110 . 1 `S103 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES110  1 e 1 @14 ]
+"1406
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1426
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S404 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1447
+[s S408 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S416 . 1 `S404 1 . 1 0 `S408 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES416  1 e 1 @31 ]
+"1497
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S384 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1512
+[u S391 . 1 `S384 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES391  1 e 1 @140 ]
+"1542
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S367 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1557
+[u S374 . 1 `S367 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES374  1 e 1 @142 ]
+"1873
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2189
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2234
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2777
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2822
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"10255
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2193 ]
+"10507
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2194 ]
+"10757
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2195 ]
+"11009
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2196 ]
+[s S460 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"11254
+[s S468 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CFGS 1 0 :1:6 
+]
+[u S471 . 1 `S460 1 . 1 0 `S468 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES471  1 e 1 @2197 ]
+"11414
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2198 ]
+[s S308 . 1 `uc 1 NDIV 1 0 :4:0 
+`uc 1 NOSC 1 0 :3:4 
+]
+"11945
+[s S311 . 1 `uc 1 NDIV0 1 0 :1:0 
+`uc 1 NDIV1 1 0 :1:1 
+`uc 1 NDIV2 1 0 :1:2 
+`uc 1 NDIV3 1 0 :1:3 
+`uc 1 NOSC0 1 0 :1:4 
+`uc 1 NOSC1 1 0 :1:5 
+`uc 1 NOSC2 1 0 :1:6 
+]
+[u S319 . 1 `S308 1 . 1 0 `S311 1 . 1 0 ]
+[v _OSCCON1bits OSCCON1bits `VES319  1 e 1 @2329 ]
+[s S290 . 1 `uc 1 HFFRQ 1 0 :4:0 
+]
+"12282
+[s S292 . 1 `uc 1 HFFRQ0 1 0 :1:0 
+`uc 1 HFFRQ1 1 0 :1:1 
+`uc 1 HFFRQ2 1 0 :1:2 
+`uc 1 HFFRQ3 1 0 :1:3 
+]
+[u S297 . 1 `S290 1 . 1 0 `S292 1 . 1 0 ]
+[v _OSCFRQbits OSCFRQbits `VES297  1 e 1 @2335 ]
+"19511
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"20453
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"21105
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1161 ]
+"21107
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"22 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v _GLOBAL_sub_patterns_index GLOBAL_sub_patterns_index `VEuc  1 e 1 0 ]
+"23
+[v _GLOBAL_sub_patterns_index_copy GLOBAL_sub_patterns_index_copy `VEuc  1 e 1 0 ]
+"24
+[v _GLOBAL_sub_patterns_column_index GLOBAL_sub_patterns_column_index `VEuc  1 e 1 0 ]
+"25
+[v _GLOBAL_combo_patterns_index GLOBAL_combo_patterns_index `VEuc  1 e 1 0 ]
+"26
+[v _GLOBAL_combo_patterns_index_copy GLOBAL_combo_patterns_index_copy `VEuc  1 e 1 0 ]
+"27
+[v _GLOBAL_combo_patterns_column_index GLOBAL_combo_patterns_column_index `VEuc  1 e 1 0 ]
+"28
+[v _GLOBAL_sub_patterns_timer GLOBAL_sub_patterns_timer `VEuc  1 e 1 0 ]
+"29
+[v _GLOBAL_combo_patterns_counter GLOBAL_combo_patterns_counter `VEuc  1 e 1 0 ]
+"30
+[v _GLOBAL_Selected_Mode_Number GLOBAL_Selected_Mode_Number `VEuc  1 e 1 0 ]
+"31
+[v _GLOBAL_Selected_Mode_Type GLOBAL_Selected_Mode_Type `VEuc  1 e 1 0 ]
+"32
+[v _GLOBAL_Selected_Mode_Type_copy GLOBAL_Selected_Mode_Type_copy `VEuc  1 e 1 0 ]
+"33
+[v _GLOBAL_Dummy_Counter GLOBAL_Dummy_Counter `VEuc  1 e 1 0 ]
+"34
+[v _GLOBAL_Dummy_Counter2 GLOBAL_Dummy_Counter2 `VEuc  1 e 1 0 ]
+"35
+[v _GLOBAL_MODE1_counter GLOBAL_MODE1_counter `VEuc  1 e 1 0 ]
+"36
+[v _GLOBAL_SYNC_Line_counter GLOBAL_SYNC_Line_counter `VEuc  1 e 1 0 ]
+"37
+[v _GLOBAL_MODE2_counter GLOBAL_MODE2_counter `VEuc  1 e 1 0 ]
+"38
+[v _COLOR_DETECT_counter COLOR_DETECT_counter `VEuc  1 e 1 0 ]
+"39
+[v _GLOBAL_MODE1_LOW_counter GLOBAL_MODE1_LOW_counter `VEuc  1 e 1 0 ]
+"40
+[v _GLOBAL_SYNC_Line_LOW_counter GLOBAL_SYNC_Line_LOW_counter `VEuc  1 e 1 0 ]
+"41
+[v _GLOBAL_MODE2_LOW_counter GLOBAL_MODE2_LOW_counter `VEuc  1 e 1 0 ]
+"42
+[v _COLOR_DETECT_LOW_counter COLOR_DETECT_LOW_counter `VEuc  1 e 1 0 ]
+"43
+[v _GLOBAL_Mode_copy GLOBAL_Mode_copy `VE[3]uc  1 e 3 0 ]
+"44
+[v _GLOBAL_SYNC_PULSE_Counter GLOBAL_SYNC_PULSE_Counter `VEuc  1 e 1 0 ]
+"45
+[v _GLOBAL_CHANNELS_EN_copy GLOBAL_CHANNELS_EN_copy `VEuc  1 e 1 0 ]
+"47
+[v _GLOBAL_Sync_Count_truefalse GLOBAL_Sync_Count_truefalse `VEuc  1 e 1 0 ]
+"48
+[v _GLOBAL_Sync_Count_LOW_truefalse GLOBAL_Sync_Count_LOW_truefalse `VEuc  1 e 1 0 ]
+"50
+[v _bGLOBAL_DISABLE_SYNC_Line_PRESSED bGLOBAL_DISABLE_SYNC_Line_PRESSED `VEuc  1 e 1 0 ]
+"51
+[v _bGLOBAL_CHANGING_PATTERN bGLOBAL_CHANGING_PATTERN `VEuc  1 e 1 0 ]
+"52
+[v _bGLOBAL_CHANGING_PATTERN_Enforce bGLOBAL_CHANGING_PATTERN_Enforce `VEuc  1 e 1 0 ]
+"53
+[v _bGLOBAL_SYNC_SENT bGLOBAL_SYNC_SENT `VEuc  1 e 1 0 ]
+"54
+[v _bGLOBAL_END_OF_CYCLE_COND1 bGLOBAL_END_OF_CYCLE_COND1 `VEuc  1 e 1 0 ]
+"55
+[v _bGLOBAL_END_OF_CYCLE_COND2 bGLOBAL_END_OF_CYCLE_COND2 `VEuc  1 e 1 0 ]
+"56
+[v _bGLOBAL_IS_PROGRAMMING bGLOBAL_IS_PROGRAMMING `VEuc  1 e 1 0 ]
+"57
+[v _bGLOBAL_InPhase bGLOBAL_InPhase `VEuc  1 e 1 0 ]
+"58
+[v _bGLOBAL_InPhase_copy bGLOBAL_InPhase_copy `VE[3]uc  1 e 3 0 ]
+"59
+[v _bGLOBAL_ENABLE_LEDS bGLOBAL_ENABLE_LEDS `VEuc  1 e 1 0 ]
+"61
+[v _enableOutputsToFlashPatterns enableOutputsToFlashPatterns `VEuc  1 e 1 0 ]
+"63
+[v _bGLOBAL_MODE1_PRESSED bGLOBAL_MODE1_PRESSED `VEuc  1 e 1 0 ]
+"64
+[v _bGLOBAL_MODE2_PRESSED bGLOBAL_MODE2_PRESSED `VEuc  1 e 1 0 ]
+"65
+[v _bCOLOR_DETECT_PRESSED bCOLOR_DETECT_PRESSED `VEuc  1 e 1 0 ]
+"66
+[v _bPrev_COLOR_DETECT_PRESSED bPrev_COLOR_DETECT_PRESSED `VEuc  1 e 1 0 ]
+"67
+[v _bGLOBAL_SYNC_Line_PRESSED bGLOBAL_SYNC_Line_PRESSED `VEuc  1 e 1 0 ]
+"68
+[v _SYNC_LINE_TRUE SYNC_LINE_TRUE `VEuc  1 e 1 0 ]
+"69
+[v _bGLOBAL_OUTPUT_BUFFER_CHANGED bGLOBAL_OUTPUT_BUFFER_CHANGED `VEuc  1 e 1 0 ]
+"70
+[v _bGLOBAL_STEADY_ON bGLOBAL_STEADY_ON `VEuc  1 e 1 0 ]
+"72
+[v _colorState colorState `VE[3]uc  1 e 3 0 ]
+"73
+[v _currentColorCounter currentColorCounter `VEuc  1 e 1 0 ]
+"74
+[v _currentColor currentColor `VEuc  1 e 1 0 ]
+"76
+[v _OUTPUT_BUFFER OUTPUT_BUFFER `VEuc  1 e 1 0 ]
+"77
+[v _OUTPUT_BUFFER_COPY OUTPUT_BUFFER_COPY `VEuc  1 e 1 0 ]
+"79
+[v _CurrentColorMax CurrentColorMax `VE[15]uc  1 e 15 0 ]
+"83
+[v _GLOBAL_changedModePattern GLOBAL_changedModePattern `VEuc  1 e 1 0 ]
+"85
+[v _ROM_Sub_Patterns ROM_Sub_Patterns `DC[19][7]uc  1 e 133 0 ]
+"236
+[v _ROM_Sub_Patterns_Time ROM_Sub_Patterns_Time `DC[19][7]uc  1 e 133 0 ]
+"283
+[v _ROM_COMBO_Patterns_TwoFour ROM_COMBO_Patterns_TwoFour `DC[14][35]uc  1 e 490 0 ]
+"300
+[v _ROM_COMBO_Patterns_Three ROM_COMBO_Patterns_Three `DC[14][35]uc  1 e 490 0 ]
+"320
+[v _channelToBeDisplayed channelToBeDisplayed `VEuc  1 e 1 0 ]
+"321
+[v _GLOBAL_CHANNELS_EN_DUAL GLOBAL_CHANNELS_EN_DUAL `VEuc  1 e 1 0 ]
+"322
+[v _pwmBool pwmBool `VEuc  1 e 1 0 ]
+"323
+[v _pwmStartUpCount pwmStartUpCount `VEuc  1 e 1 0 ]
+"325
+[v _GLOCAL_Program_Color GLOCAL_Program_Color `VEuc  1 e 1 0 ]
+"327
+[v _bGiveControlToColorProgram bGiveControlToColorProgram `VEuc  1 e 1 0 ]
+"329
+[v _startUpProgram startUpProgram `VEuc  1 e 1 0 ]
+"330
+[v _indexOfMode indexOfMode `uc  1 s 1 indexOfMode ]
+"338
+[v _EEprom_mode EEprom_mode `VE[3]uc  1 e 3 0 ]
+"339
+[v _EEprom_Written_Flag EEprom_Written_Flag `VEuc  1 e 1 0 ]
+"340
+[v _EEpromNeverWritten_Flag EEpromNeverWritten_Flag `VEuc  1 e 1 0 ]
+"341
+[v _EEprom_InPhase EEprom_InPhase `VE[3]uc  1 e 3 0 ]
+"342
+[v _EEprom_ColorState EEprom_ColorState `VE[3]uc  1 e 3 0 ]
+"348
+[v _colorResetCounter colorResetCounter `ul  1 s 4 colorResetCounter ]
+"350
+[v _earlyOutput earlyOutput `VEuc  1 e 1 0 ]
+"1191
+[v _main main `(v  1 e 1 0 ]
+{
+"1193
+[v main@tempvar1 tempvar1 `uc  1 a 1 15 ]
+"1194
+[v main@tester tester `uc  1 a 1 14 ]
+"1310
+} 0
+"443
+[v _SetOUTPUT SetOUTPUT `(v  1 e 1 0 ]
+{
+"445
+[v SetOUTPUT@temporaryGPIO temporaryGPIO `uc  1 s 1 temporaryGPIO ]
+"446
+[v SetOUTPUT@pwmCounter pwmCounter `uc  1 s 1 pwmCounter ]
+"537
+} 0
+"352
+[v _GPIO GPIO `T(v  1 e 1 0 ]
+{
+[v GPIO@i i `uc  1 a 1 wreg ]
+[v GPIO@i i `uc  1 a 1 wreg ]
+"354
+[v GPIO@i i `uc  1 a 1 0 ]
+"441
+} 0
+"1128
+[v _Initial_Start Initial_Start `(v  1 e 1 0 ]
+{
+"1130
+[v Initial_Start@read_data read_data `uc  1 a 1 12 ]
+"1187
+} 0
+"1084
+[v _readFromEEPROMBeforeSteadyOn readFromEEPROMBeforeSteadyOn `(v  1 e 1 0 ]
+{
+"1086
+[v readFromEEPROMBeforeSteadyOn@i i `uc  1 a 1 9 ]
+"1104
+} 0
+"1106
+[v _readFromEEPROM readFromEEPROM `(v  1 e 1 0 ]
+{
+"1108
+[v readFromEEPROM@i i `uc  1 a 1 9 ]
+"1126
+} 0
+"96 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+{
+[v ___eetoc@addr addr `*.28VEv  1 a 1 wreg ]
+"98
+[v ___eetoc@data data `uc  1 a 1 7 ]
+"96
+[v ___eetoc@addr addr `*.28VEv  1 a 1 wreg ]
+"99
+[v ___eetoc@addr addr `*.28VEv  1 a 1 6 ]
+"101
+} 0
+"6
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+{
+[v eecpymem@to to `*.4VEuc  1 a 1 wreg ]
+"8
+[v eecpymem@cp cp `*.4VEuc  1 a 1 3 ]
+"6
+[v eecpymem@to to `*.4VEuc  1 a 1 wreg ]
+[v eecpymem@from from `*.28VEuc  1 p 1 0 ]
+[v eecpymem@size size `uc  1 p 1 1 ]
+"8
+[v eecpymem@to to `*.4VEuc  1 a 1 4 ]
+"36
+} 0
+"553 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v _WriteEEPROMDefaults WriteEEPROMDefaults `(v  1 e 1 0 ]
+{
+"570
+} 0
+"22 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"76
+} 0
+"541 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v _WaitForSYNC_PU WaitForSYNC_PU `(v  1 e 1 0 ]
+{
+"543
+[v WaitForSYNC_PU@temp001 temp001 `uc  1 a 1 1 ]
+"551
+} 0
+"911
+[v _Increment_Color_State Increment_Color_State `(v  1 e 1 0 ]
+{
+"913
+[v Increment_Color_State@resetFlagColor resetFlagColor `uc  1 s 1 resetFlagColor ]
+"973
+} 0
+"883
+[v _resetColor resetColor `(v  1 e 1 0 ]
+{
+"909
+} 0
+"864
+[v _Update_Input_Mode_Type Update_Input_Mode_Type `(v  1 e 1 0 ]
+{
+"881
+} 0
+"833
+[v _INC_EEPROM_MODE INC_EEPROM_MODE `(v  1 e 1 0 ]
+{
+"835
+[v INC_EEPROM_MODE@Temp_Mode_Data Temp_Mode_Data `uc  1 a 1 11 ]
+"862
+} 0
+"1043
+[v _Update_ComboPattern_Index Update_ComboPattern_Index `(v  1 e 1 0 ]
+{
+"1082
+} 0
+"810
+[v _ReWriteEEPROM ReWriteEEPROM `(v  1 e 1 0 ]
+{
+"813
+[v ReWriteEEPROM@i i `uc  1 a 1 9 ]
+"831
+} 0
+"128 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+{
+[v ___ctoee@addr addr `*.28VEv  1 a 1 wreg ]
+[v ___ctoee@addr addr `*.28VEv  1 a 1 wreg ]
+[v ___ctoee@data data `uc  1 p 1 5 ]
+"130
+[v ___ctoee@addr addr `*.28VEv  1 a 1 7 ]
+"132
+} 0
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+{
+[v memcpyee@to to `*.28VEuc  1 a 1 wreg ]
+"41
+[v memcpyee@ptr ptr `*.4DCuc  1 a 1 3 ]
+"39
+[v memcpyee@to to `*.28VEuc  1 a 1 wreg ]
+[v memcpyee@from from `*.4DCuc  1 p 1 0 ]
+[v memcpyee@size size `uc  1 p 1 1 ]
+"41
+[v memcpyee@to to `*.28VEuc  1 a 1 4 ]
+"93
+} 0
+"18 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"35
+} 0
+"26 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"28
+[v isr@temp_data1 temp_data1 `uc  1 s 1 temp_data1 ]
+"29
+[v isr@tenMSCounter tenMSCounter `uc  1 s 1 tenMSCounter ]
+"30
+[v isr@oneMSCounter oneMSCounter `uc  1 s 1 oneMSCounter ]
+"36
+[v isr@currentColorNumberOfChannel currentColorNumberOfChannel `uc  1 s 1 currentColorNumberOfChannel ]
+"265
+} 0
+"443 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v i1_SetOUTPUT SetOUTPUT `(v  1 e 1 0 ]
+{
+"537
+} 0
+"352
+[v i1_GPIO GPIO `T(v  1 e 1 0 ]
+{
+[v i1GPIO@i i `uc  1 a 1 wreg ]
+[v i1GPIO@i i `uc  1 a 1 wreg ]
+"354
+[v i1GPIO@i i `uc  1 a 1 0 ]
+"441
+} 0
+"572
+[v _setColorState setColorState `(uc  1 e 1 0 ]
+{
+"574
+[v setColorState@currentColorNumberOfChannels currentColorNumberOfChannels `uc  1 s 1 currentColorNumberOfChannels ]
+"808
+} 0
+"1312
+[v _isComboPattern isComboPattern `(uc  1 e 1 0 ]
+{
+"1314
+[v isComboPattern@indexLocal indexLocal `i  1 s 2 indexLocal ]
+"1333
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"975 C:\Users\kylep\Desktop\Firm-Smart-Mod_QUAD\main.c
+[v _Read_Mode_Input Read_Mode_Input `(v  1 e 1 0 ]
+{
+"1040
+} 0

@@ -1,0 +1,9 @@
+
+Memory Summary:
+    Program space        used   D3Fh (  3391) of  2000h words   ( 41.4%)
+    Data space           used    82h (   130) of   400h bytes   ( 12.7%)
+    EEPROM space         used     Ah (    10) of   100h bytes   (  3.9%)
+    Data stack space     used     0h (     0) of   375h bytes   (  0.0%)
+    Configuration bits   used     4h (     4) of     4h words   (100.0%)
+    ID Location space    used     0h (     0) of     4h bytes   (  0.0%)
+
